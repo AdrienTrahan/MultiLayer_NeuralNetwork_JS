@@ -159,3 +159,7 @@ class NeuralNetwork{
     return t * (1-t)
   }
 }
+
+if (module.exports != undefined){
+  module.exports = {NeuralNetwork: NeuralNetwork};  
+}
