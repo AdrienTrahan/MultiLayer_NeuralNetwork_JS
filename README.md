@@ -23,3 +23,7 @@ If you have your own activation function, you could provide it using:
 ```javascript
 neuralNetwork.setActivation("custom", myFunction, myDerivativeFunction)
 ```
+You can get the list of all activations during the feed forward algorithm by passing the 'true' parameter in the feed function:
+```javascript
+neuralNetwork.feed([1, 0], true)
+```
