@@ -1,4 +1,4 @@
-# MultiLayer NeuralNetwork
+# MultiHiddenLayer NeuralNetwork
 Javascript library for developing some efficient and easy to use neural networks.
 
 ### Installation
