@@ -25,6 +25,6 @@ neuralNetwork.setActivation("custom", myFunction, myDerivativeFunction)
 ```
 You can get the list of all activations during the feed forward algorithm by passing the 'true' parameter in the feed function:
 ```javascript
-neuralNetwork.feed([1, 0], true) // returns a javascript object: {result: (output), saved: (array of activations)}
+neuralNetwork.feed([1, 0], true) // returns a javascript object: {result: (output), saved: (2d array of activations)}
 
 ```
