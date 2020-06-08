@@ -6,7 +6,7 @@ You could import this library using a script tag:
 ```html
 <script src="neuralnet.js" charset="utf-8"></script>
 ```
-if you wan't to use this library with node, use:
+if you want to use this library with node, use:
 ```javascript
 const {NeuralNetwork} = require("path/to/neuralnet.js");
 ```
